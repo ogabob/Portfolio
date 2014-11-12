@@ -1,0 +1,112 @@
+
+
+
+body{
+        font:normal normal  1.310em "arial verdana sans serif";
+         margin:10%;
+         padding:5%;
+         
+         }
+
+aside.quote{
+       position:relative;
+       left: 20%;
+       }
+
+
+
+
+blockquote { 
+         float:left;
+         width: 30%; 
+         font-size: 1.061em; 
+         font-style: italic; 
+         margin: 0% 0% 5% 5%; 
+         padding: 10px;
+         border-top: 1px solid black; 
+         border-bottom: 1px solid black;}
+ img{
+  max-width: 100%;
+  }
+
+img.books{
+ float:left;
+    }
+  
+ 
+
+img.ilr{
+   position: fixed;
+   top:0px;
+   right: 15px;
+   width: 100px;
+   height: 100px;
+   }
+   
+   
+section.intro{
+    float: left;
+    }
+    
+ fieldset{
+   width: 95%;
+   padding:3%
+   border: px solid black;
+   border-radius: 4%:
+   background: #b0d4e3;
+   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2IwZDRlMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4OGJhY2YiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+   background: -moz-linear-gradient(top,  #b0d4e3 0%, #88bacf 100%);
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b0d4e3), color-stop(100%,#88bacf));
+   background: -webkit-linear-gradient(top,  #b0d4e3 0%,#88bacf 100%);
+   background: -o-linear-gradient(top,  #b0d4e3 0%,#88bacf 100%);
+   background: -ms-linear-gradient(top,  #b0d4e3 0%,#88bacf 100%);
+   background: linear-gradient(to bottom,  #b0d4e3 0%,#88bacf 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=0 );
+    
+   }   
+   
+   legend { 
+     font-size: 1.000em; 
+     background-color: silver; 
+     border: 1px solid black; 
+     border-radius: 2px; 
+     padding: 10px ; 
+     }
+     
+     
+    input{
+         border: 1px solid black;
+         border-radius: 5px;
+         -o-transition: all 0.8s ease 0s;
+          -ms-transition: all 0.8s ease 0s;
+          -moz-transition: all 0.8s ease 0s;
+          -webkit-transition: all 0.8s ease 0s;
+         }   
+    input:focus , input:hover{
+          background-color:tan;
+          
+          }  
+          
+          
+/* Media Queries */ 
+          
+   /* Smartphones (portrait and landscape)  */ 
+   @media only screen 
+   and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+   body{
+      background-color:silver;}
+      legend{
+      background-color:grey;}
+     }      
+  /* Large screens */   
+     @media only screen 
+and (min-width : 1824px) {
+  body{
+      background-color:silver;}
+      legend{
+      background-color:grey;}
+
+     }
+
+
