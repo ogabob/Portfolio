@@ -1,0 +1,254 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    font-family: 'Dosis', sans-serif;
+    font-size:20px;
+    margin:9%;
+     background-image: url(../images/abbg.jpg);
+   background-repeat: ;
+   background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+   
+    }
+    
+   
+    
+    
+    .cont{
+     background: white;
+     padding:1%;
+      }
+   
+header{
+   ;
+   } 
+   ul.nav{
+    font-weight: normal;
+    font-size: 1.000em; 
+    font-family: 'Roboto', sans-serif;
+     } 
+h1{
+   font-family: 'Changa One', cursive;
+   }
+   span.w{
+    color:orange;
+    font-size:1.250em;
+    font-family: 'Dosis', sans-serif;
+      }
+   span.l{
+   color:blue;
+   font-size:1.250em;
+   font-family: 'Dosis', sans-serif;
+      }
+   span.two{
+    font-size:1.500em;
+    color:red;
+    font-family: 'Dosis', sans-serif;
+       } 
+          
+.navbar{
+   background-color:orange;
+      }
+      
+/*.gbg{
+   background-image: url(../images/chb3.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:110%;
+    height:150%;
+    
+   }*/
+ 
+   
+      
+      
+img.first{
+     margin:;
+     }      
+img.pic { 
+          height: 100%;
+          
+          }
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+ .jumbotron{ 
+     height:230px;
+     width:355px;
+     margin:1%;
+     color:black; 
+     font-weight:bold;
+     
+     }
+     
+     .first{
+      background-image: url(../images/books.jpg);
+      height:230px;
+      width:355px;
+      margin:17px;
+      }
+      
+     p.bks{
+     opacity:0;
+     }
+      p.bks:hover.bks{
+       background:orange;
+       padding:.5%;
+       opacity:1;
+       border-radius:5px;
+       
+       }
+      
+      .second{
+      background-image: url(../images/br2.jpg);
+      height:230px;
+      width:355px;
+      margin:17px;
+      }
+      
+       .third{
+      background-image: url(../images/bookclub.jpg);
+      height:230px;
+      width:355px;
+      margin:17px;
+      }
+      
+       .fourth{
+      background-image: url(../images/dr2.jpg);
+      height:230px;
+      width:355px;
+      margin:17px;
+      }
+      
+      .fifth{
+      background-image: url(../images/fa2.jpg);
+      height:230px;
+      width:355px;
+      margin:17px;
+      }
+      
+       .sixth{
+      background-image: url(../images/amc3.jpg);
+      height:230px;
+      width:355px;
+      margin:17px;
+      }
+      
+      
+      
+      
+      p.st{
+      opacity:0.9;
+      }
+
+.panel-heading{
+  background-color:orange! important;
+     }
+
+.panel-body{
+    height:147px;
+    
+    width:355px;
+ 
+     }
+     
+      .thumbnail{
+      background-color:orange;
+      }
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+.well{
+   background-color: orange;
+   }
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
